@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+.hero{
+    height:100vh;
+    width:100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: block;
+
+
+}
+
+    
+.list-item a {
+    color:white;
+    text-decoration: none;
+}
+.list-item a:hover,active{
+
+   color:red;
+   text-decoration:underline;
+}
+
+.list-item {
+    height: 158px;
+    width: 610px;
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    padding: 51px 50px;
+    font-size:1.5em;
+    position: absolute;
+    left:750px;
+    top: -40px;
+
+}
+.container{
+    border: 2px solid white;
+   
+    border-radius: 30px;
+    width: 650px;
+    height: 500px;
+    display: block;
+    padding: 20px 30px;
+    
+}
+.form-grp input{
+    text-align: center;
+    display: block;
+    width: 560px;
+    margin:10px;
+    padding:0px 0px 5px 0px ;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+}
+.container h2 {
+   font-family: 'Baloo Bhaijaan 2', cursive;
+   color: rgb(241, 0, 0);
+   text-align: center;
+}
+.btn {
+    border: 1px solid black;
+    padding: 10px 20px;
+    background: red;
+    font-weight:bold ;
+    font-size: 1.2rem;
+    cursor:pointer;
+    border-radius: 20px;
+    color: white;
+    margin: 200px;
+    
+    
+}
+
+
